@@ -1,7 +1,7 @@
 # Lovelace liquid fill gauge
 A custom card displaying a gauge with liquid effects for [Home Assistant](https://github.com/home-assistant/home-assistant) Lovelace UI.
 
-Only made possible by the contributions of Karl Kihlström (@kalkih) - thank you!
+Only made possible by the contributions of Karl Kihlström [(@kalkih](https://github.com/kalkih) - thank you!
 
 The card works with entities from within the **sensor** domain and displays the sensors current state as well as a line graph representation of the history.
 
