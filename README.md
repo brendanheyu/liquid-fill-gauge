@@ -312,14 +312,14 @@ shows turning off the line, points and legend.
 **Clone this repository into your `config/www` folder using git.**
 
 ```
-$ git clone https://github.com/kalkih/mini-graph-card.git
+$ git clone https://github.com/brendanheyu/liquid-graph-card.git
 ```
 
 **Add a reference to the card in your `ui-lovelace.yaml`.**
 
 ```yaml
 resources:
-  - url: /local/mini-graph-card/dist/mini-graph-card-bundle.js
+  - url: /local/liquid-graph-card/dist/liquid-graph-card-bundle.js
     type: module
 ```
 
@@ -327,9 +327,9 @@ resources:
 
 *Requires `nodejs` & `npm`*
 
-1. Move into the `mini-graph-card` repo, checkout the *dev* branch & install dependencies.
+1. Move into the `liquid-graph-card` repo, checkout the *dev* branch & install dependencies.
 ```console
-$ cd mini-graph-card && git checkout dev && npm install
+$ cd liquid-graph-card && git checkout dev && npm install
 ```
 
 2. Make changes to the source code
@@ -355,7 +355,7 @@ $ npm run watch
 ## Getting errors?
 Make sure you have `javascript_version: latest` in your `configuration.yaml` under `frontend:`.
 
-Make sure you have the latest versions of `mini-graph-card.js` & `mini-graph-lib.js`.
+Make sure you have the latest versions of `liquid-graph-card.js` & `liquid-graph-lib.js`.
 
 If you have issues after updating the card, try clearing your browser cache.
 
