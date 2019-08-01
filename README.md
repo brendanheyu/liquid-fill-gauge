@@ -49,7 +49,7 @@ Based on Curtis Brattons library http://bl.ocks.org/brattonc/5e5ce9beee483220e2f
   ```yaml
   custom_updater:
     card_urls:
-      - https://raw.githubusercontent.com/brendanheyu/liquidgraph-card/master/tracker.json
+      - https://raw.githubusercontent.com/brendanheyu/liquid-fill-gauge/master/tracker.json
   ```
 
 ## Updating
@@ -348,14 +348,14 @@ $ npm run build
 $ npm run watch
 ```
 
-*The new `mini-graph-card-bundle.js` will be build and ready inside `/dist`.*
+*The new `liquid-fill-gauge-bundle.js` will be build and ready inside `/dist`.*
 
 **If you plan to submit a PR, please base it on the `dev` branch**
 
 ## Getting errors?
 Make sure you have `javascript_version: latest` in your `configuration.yaml` under `frontend:`.
 
-Make sure you have the latest versions of `liquid-fill-gauge.js` & `liquid-graph-lib.js`.
+Make sure you have the latest versions of `liquid-fill-gauge-bundle.js` & `liquid-fill-gauge-lib.js`.
 
 If you have issues after updating the card, try clearing your browser cache.
 
