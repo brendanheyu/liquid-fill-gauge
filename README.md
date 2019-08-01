@@ -1,4 +1,4 @@
-# Lovelace liquid fill gauge
+# Lovelace Liquid Fill Gauge
 A custom card displaying a gauge with liquid effects for [Home Assistant](https://github.com/home-assistant/home-assistant) Lovelace UI.
 
 Only made possible by the contributions of Karl Kihlström [(@kalkih)](https://github.com/kalkih) - thank you!
@@ -12,13 +12,13 @@ Based on Curtis Brattons library http://bl.ocks.org/brattonc/5e5ce9beee483220e2f
 
 ### Simple install
 
-1. Download and copy `liquid-graph-card-bundle.js` from the [latest release](https://github.com/brendanheyu/liquid-graph-card/releases/latest) into your `config/www` directory.
+1. Download and copy `liquid-fill-gauge-bundle.js` from the [latest release](https://github.com/brendanheyu/liquid-fill-gauge/releases/latest) into your `config/www` directory.
 
-2. Add a reference to `liquid-graph-card-bundle.js` inside your `ui-lovelace.yaml` or at the top of the *raw config editor UI*.
+2. Add a reference to `liquid-fill-gauge-bundle.js` inside your `ui-lovelace.yaml` or at the top of the *raw config editor UI*.
 
   ```yaml
   resources:
-    - url: /local/liquid-graph-card-bundle.js?v=0.5.0
+    - url: /local/liquid-fill-gauge-bundle.js?v=0.5.0
       type: module
   ```
 
@@ -26,17 +26,17 @@ Based on Curtis Brattons library http://bl.ocks.org/brattonc/5e5ce9beee483220e2f
 
 1. Move into your `config/www` directory
 
-2. Grab `liquid-graph-card-bundle.js`
+2. Grab `liquid-fill-gauge-bundle.js`
 
   ```
-  $ wget https://github.com/brendanheyu/liquid-graph-card/releases/download/v0.5.0/liquid-graph-card-bundle.js
+  $ wget https://github.com/brendanheyu/liquid-fill-gauge/releases/download/v0.5.0/liquid-fill-gauge-bundle.js
   ```
 
-3. Add a reference to `liquid-graph-card-bundle.js` inside your `ui-lovelace.yaml`.
+3. Add a reference to `liquid-fill-gauge-bundle.js` inside your `ui-lovelace.yaml`.
 
   ```yaml
   resources:
-    - url: /local/liquid-graph-card-bundle.js?v=0.5.0
+    - url: /local/liquid-fill-gauge-bundle.js?v=0.5.0
       type: module
   ```
 
@@ -55,15 +55,15 @@ Based on Curtis Brattons library http://bl.ocks.org/brattonc/5e5ce9beee483220e2f
 ## Updating
 **If you have a version older than v0.0.8 installed, please delete the current files and follow the installation instructions again.**
 
-1. Find your `liquid-graph-card-bundle.js` file in `config/www` or wherever you ended up storing it.
+1. Find your `liquid-fill-gauge-bundle.js` file in `config/www` or wherever you ended up storing it.
 
-2. Replace the local file with the latest one attached in the [latest release](https://github.com/brendanheyu/liquid-graph-card/releases/latest).
+2. Replace the local file with the latest one attached in the [latest release](https://github.com/brendanheyu/liquid-fill-gauge/releases/latest).
 
 3. Add the new version number to the end of the cards reference url in your `ui-lovelace.yaml` like below.
 
   ```yaml
   resources:
-    - url: /local/liquid-graph-card-bundle.js?v=0.5.0
+    - url: /local/liquid-fill-gauge-bundle.js?v=0.5.0
       type: module
   ```
 
@@ -312,14 +312,14 @@ shows turning off the line, points and legend.
 **Clone this repository into your `config/www` folder using git.**
 
 ```
-$ git clone https://github.com/brendanheyu/liquid-graph-card.git
+$ git clone https://github.com/brendanheyu/liquid-fill-gauge.git
 ```
 
 **Add a reference to the card in your `ui-lovelace.yaml`.**
 
 ```yaml
 resources:
-  - url: /local/liquid-graph-card/dist/liquid-graph-card-bundle.js
+  - url: /local/liquid-fill-gauge/dist/liquid-fill-gauge-bundle.js
     type: module
 ```
 
@@ -327,9 +327,9 @@ resources:
 
 *Requires `nodejs` & `npm`*
 
-1. Move into the `liquid-graph-card` repo, checkout the *dev* branch & install dependencies.
+1. Move into the `liquid-fill-gauge` repo, checkout the *dev* branch & install dependencies.
 ```console
-$ cd liquid-graph-card && git checkout dev && npm install
+$ cd liquid-fill-gauge && git checkout dev && npm install
 ```
 
 2. Make changes to the source code
@@ -355,7 +355,7 @@ $ npm run watch
 ## Getting errors?
 Make sure you have `javascript_version: latest` in your `configuration.yaml` under `frontend:`.
 
-Make sure you have the latest versions of `liquid-graph-card.js` & `liquid-graph-lib.js`.
+Make sure you have the latest versions of `liquid-fill-gauge.js` & `liquid-graph-lib.js`.
 
 If you have issues after updating the card, try clearing your browser cache.
 
